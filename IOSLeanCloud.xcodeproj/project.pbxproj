@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4ECC250522A55AC4009B8BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC250422A55AC4009B8BEB /* AppDelegate.m */; };
+		4ECC250822A55AC4009B8BEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC250722A55AC4009B8BEB /* ViewController.m */; };
+		4ECC250B22A55AC4009B8BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC250922A55AC4009B8BEB /* Main.storyboard */; };
+		4ECC250D22A55AC5009B8BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC250C22A55AC5009B8BEB /* Assets.xcassets */; };
+		4ECC251022A55AC5009B8BEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ECC250E22A55AC5009B8BEB /* LaunchScreen.storyboard */; };
+		4ECC251322A55AC5009B8BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC251222A55AC5009B8BEB /* main.m */; };
+		4ECC251D22A55AC5009B8BEB /* IOSLeanCloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC251C22A55AC5009B8BEB /* IOSLeanCloudTests.m */; };
+		4ECC252822A55AC5009B8BEB /* IOSLeanCloudUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECC252722A55AC5009B8BEB /* IOSLeanCloudUITests.m */; };
+		58F82608F49745227BFA2145 /* libPods-IOSLeanCloud.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7338F67453EEDDC5FEBBE368 /* libPods-IOSLeanCloud.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4ECC251922A55AC5009B8BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECC24F822A55AC4009B8BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECC24FF22A55AC4009B8BEB;
+			remoteInfo = IOSLeanCloud;
+		};
+		4ECC252422A55AC5009B8BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4ECC24F822A55AC4009B8BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ECC24FF22A55AC4009B8BEB;
+			remoteInfo = IOSLeanCloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4ECC250022A55AC4009B8BEB /* IOSLeanCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSLeanCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECC250322A55AC4009B8BEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4ECC250422A55AC4009B8BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4ECC250622A55AC4009B8BEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4ECC250722A55AC4009B8BEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4ECC250A22A55AC4009B8BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ECC250C22A55AC5009B8BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ECC250F22A55AC5009B8BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ECC251122A55AC5009B8BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECC251222A55AC5009B8BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4ECC251822A55AC5009B8BEB /* IOSLeanCloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSLeanCloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECC251C22A55AC5009B8BEB /* IOSLeanCloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSLeanCloudTests.m; sourceTree = "<group>"; };
+		4ECC251E22A55AC5009B8BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ECC252322A55AC5009B8BEB /* IOSLeanCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSLeanCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECC252722A55AC5009B8BEB /* IOSLeanCloudUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSLeanCloudUITests.m; sourceTree = "<group>"; };
+		4ECC252922A55AC5009B8BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7338F67453EEDDC5FEBBE368 /* libPods-IOSLeanCloud.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IOSLeanCloud.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		738EE7EBC6190A82F91D5874 /* Pods-IOSLeanCloud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLeanCloud.debug.xcconfig"; path = "Target Support Files/Pods-IOSLeanCloud/Pods-IOSLeanCloud.debug.xcconfig"; sourceTree = "<group>"; };
+		AA6DCE22B9D3E1D88C0F5964 /* Pods-IOSLeanCloud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOSLeanCloud.release.xcconfig"; path = "Target Support Files/Pods-IOSLeanCloud/Pods-IOSLeanCloud.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ECC24FD22A55AC4009B8BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F82608F49745227BFA2145 /* libPods-IOSLeanCloud.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC251522A55AC5009B8BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC252022A55AC5009B8BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4ECC24F722A55AC4009B8BEB = {
+			isa = PBXGroup;
+			children = (
+				4ECC250222A55AC4009B8BEB /* IOSLeanCloud */,
+				4ECC251B22A55AC5009B8BEB /* IOSLeanCloudTests */,
+				4ECC252622A55AC5009B8BEB /* IOSLeanCloudUITests */,
+				4ECC250122A55AC4009B8BEB /* Products */,
+				AE9DE492F4BA6A8A24904015 /* Pods */,
+				8DA737C4FE04CC0530FCAAF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ECC250122A55AC4009B8BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC250022A55AC4009B8BEB /* IOSLeanCloud.app */,
+				4ECC251822A55AC5009B8BEB /* IOSLeanCloudTests.xctest */,
+				4ECC252322A55AC5009B8BEB /* IOSLeanCloudUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ECC250222A55AC4009B8BEB /* IOSLeanCloud */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC250322A55AC4009B8BEB /* AppDelegate.h */,
+				4ECC250422A55AC4009B8BEB /* AppDelegate.m */,
+				4ECC250622A55AC4009B8BEB /* ViewController.h */,
+				4ECC250722A55AC4009B8BEB /* ViewController.m */,
+				4ECC250922A55AC4009B8BEB /* Main.storyboard */,
+				4ECC250C22A55AC5009B8BEB /* Assets.xcassets */,
+				4ECC250E22A55AC5009B8BEB /* LaunchScreen.storyboard */,
+				4ECC251122A55AC5009B8BEB /* Info.plist */,
+				4ECC251222A55AC5009B8BEB /* main.m */,
+			);
+			path = IOSLeanCloud;
+			sourceTree = "<group>";
+		};
+		4ECC251B22A55AC5009B8BEB /* IOSLeanCloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC251C22A55AC5009B8BEB /* IOSLeanCloudTests.m */,
+				4ECC251E22A55AC5009B8BEB /* Info.plist */,
+			);
+			path = IOSLeanCloudTests;
+			sourceTree = "<group>";
+		};
+		4ECC252622A55AC5009B8BEB /* IOSLeanCloudUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4ECC252722A55AC5009B8BEB /* IOSLeanCloudUITests.m */,
+				4ECC252922A55AC5009B8BEB /* Info.plist */,
+			);
+			path = IOSLeanCloudUITests;
+			sourceTree = "<group>";
+		};
+		8DA737C4FE04CC0530FCAAF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7338F67453EEDDC5FEBBE368 /* libPods-IOSLeanCloud.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9DE492F4BA6A8A24904015 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				738EE7EBC6190A82F91D5874 /* Pods-IOSLeanCloud.debug.xcconfig */,
+				AA6DCE22B9D3E1D88C0F5964 /* Pods-IOSLeanCloud.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ECC24FF22A55AC4009B8BEB /* IOSLeanCloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECC252C22A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloud" */;
+			buildPhases = (
+				8BFD1EB946657F36BDC5E20F /* [CP] Check Pods Manifest.lock */,
+				4ECC24FC22A55AC4009B8BEB /* Sources */,
+				4ECC24FD22A55AC4009B8BEB /* Frameworks */,
+				4ECC24FE22A55AC4009B8BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOSLeanCloud;
+			productName = IOSLeanCloud;
+			productReference = 4ECC250022A55AC4009B8BEB /* IOSLeanCloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4ECC251722A55AC5009B8BEB /* IOSLeanCloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECC252F22A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloudTests" */;
+			buildPhases = (
+				4ECC251422A55AC5009B8BEB /* Sources */,
+				4ECC251522A55AC5009B8BEB /* Frameworks */,
+				4ECC251622A55AC5009B8BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECC251A22A55AC5009B8BEB /* PBXTargetDependency */,
+			);
+			name = IOSLeanCloudTests;
+			productName = IOSLeanCloudTests;
+			productReference = 4ECC251822A55AC5009B8BEB /* IOSLeanCloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4ECC252222A55AC5009B8BEB /* IOSLeanCloudUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ECC253222A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloudUITests" */;
+			buildPhases = (
+				4ECC251F22A55AC5009B8BEB /* Sources */,
+				4ECC252022A55AC5009B8BEB /* Frameworks */,
+				4ECC252122A55AC5009B8BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4ECC252522A55AC5009B8BEB /* PBXTargetDependency */,
+			);
+			name = IOSLeanCloudUITests;
+			productName = IOSLeanCloudUITests;
+			productReference = 4ECC252322A55AC5009B8BEB /* IOSLeanCloudUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ECC24F822A55AC4009B8BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xixi;
+				TargetAttributes = {
+					4ECC24FF22A55AC4009B8BEB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4ECC251722A55AC5009B8BEB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4ECC24FF22A55AC4009B8BEB;
+					};
+					4ECC252222A55AC5009B8BEB = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4ECC24FF22A55AC4009B8BEB;
+					};
+				};
+			};
+			buildConfigurationList = 4ECC24FB22A55AC4009B8BEB /* Build configuration list for PBXProject "IOSLeanCloud" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ECC24F722A55AC4009B8BEB;
+			productRefGroup = 4ECC250122A55AC4009B8BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ECC24FF22A55AC4009B8BEB /* IOSLeanCloud */,
+				4ECC251722A55AC5009B8BEB /* IOSLeanCloudTests */,
+				4ECC252222A55AC5009B8BEB /* IOSLeanCloudUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ECC24FE22A55AC4009B8BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECC251022A55AC5009B8BEB /* LaunchScreen.storyboard in Resources */,
+				4ECC250D22A55AC5009B8BEB /* Assets.xcassets in Resources */,
+				4ECC250B22A55AC4009B8BEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC251622A55AC5009B8BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC252122A55AC5009B8BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BFD1EB946657F36BDC5E20F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOSLeanCloud-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ECC24FC22A55AC4009B8BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECC250822A55AC4009B8BEB /* ViewController.m in Sources */,
+				4ECC251322A55AC5009B8BEB /* main.m in Sources */,
+				4ECC250522A55AC4009B8BEB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC251422A55AC5009B8BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECC251D22A55AC5009B8BEB /* IOSLeanCloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4ECC251F22A55AC5009B8BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ECC252822A55AC5009B8BEB /* IOSLeanCloudUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4ECC251A22A55AC5009B8BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECC24FF22A55AC4009B8BEB /* IOSLeanCloud */;
+			targetProxy = 4ECC251922A55AC5009B8BEB /* PBXContainerItemProxy */;
+		};
+		4ECC252522A55AC5009B8BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4ECC24FF22A55AC4009B8BEB /* IOSLeanCloud */;
+			targetProxy = 4ECC252422A55AC5009B8BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4ECC250922A55AC4009B8BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECC250A22A55AC4009B8BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ECC250E22A55AC5009B8BEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ECC250F22A55AC5009B8BEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ECC252A22A55AC5009B8BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4ECC252B22A55AC5009B8BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ECC252D22A55AC5009B8BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738EE7EBC6190A82F91D5874 /* Pods-IOSLeanCloud.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ECC252E22A55AC5009B8BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA6DCE22B9D3E1D88C0F5964 /* Pods-IOSLeanCloud.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4ECC253022A55AC5009B8BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSLeanCloud.app/IOSLeanCloud";
+			};
+			name = Debug;
+		};
+		4ECC253122A55AC5009B8BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloudTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSLeanCloud.app/IOSLeanCloud";
+			};
+			name = Release;
+		};
+		4ECC253322A55AC5009B8BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOSLeanCloud;
+			};
+			name = Debug;
+		};
+		4ECC253422A55AC5009B8BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IOSLeanCloudUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xixi.IOSLeanCloudUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOSLeanCloud;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ECC24FB22A55AC4009B8BEB /* Build configuration list for PBXProject "IOSLeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECC252A22A55AC5009B8BEB /* Debug */,
+				4ECC252B22A55AC5009B8BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECC252C22A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECC252D22A55AC5009B8BEB /* Debug */,
+				4ECC252E22A55AC5009B8BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECC252F22A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECC253022A55AC5009B8BEB /* Debug */,
+				4ECC253122A55AC5009B8BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ECC253222A55AC5009B8BEB /* Build configuration list for PBXNativeTarget "IOSLeanCloudUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECC253322A55AC5009B8BEB /* Debug */,
+				4ECC253422A55AC5009B8BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ECC24F822A55AC4009B8BEB /* Project object */;
+}
